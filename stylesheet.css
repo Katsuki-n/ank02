@@ -1,0 +1,144 @@
+*{
+    margin: auto;
+    max-width: 850px;
+}
+
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-left{
+    margin: 0 80px;
+}
+
+.txt-left p{
+    margin: 30px 0;
+}
+
+.stage{
+    margin:100px  0;
+}
+
+.box1 {
+    position: relative;
+    padding: 1em 0.7em;
+    margin: 2em auto 5em auto;
+    background: rgb(50, 0, 142);
+    color: #fff ;
+    font-weight: bold;
+    width: 70%;
+    border-radius: 10px;
+    
+}
+.box1:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 45%;
+    border: 35px solid transparent;
+    border-top: 35px solid rgb(50, 0, 142);
+    width: 0;
+    height: 0;
+}
+.box1 h1 {
+    margin: 0; 
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    background-color:rgb(173, 25, 25) ;
+    color: #fff;
+    border-radius: 10px;
+    margin:  20px;
+    padding: 20px 40px;
+    border-bottom: solid 6px rgb(138, 1, 1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.ribbon1 {
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+  }
+  .ribbon1:before {/*左側のリボン端*/
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: -60px;
+    left: -65px;
+    z-index: -2;
+    border: 35px solid rgb(185, 56, 56);
+    border-left-color: transparent;/*山形に切り抜き*/
+  }
+  
+  .ribbon1:after {/*右側のリボン端*/
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: -60px;
+    right: -65px;
+    z-index: -2;
+    border: 35px solid rgb(185, 56, 56);
+    border-right-color: transparent;/*山形に切り抜き*/
+  }
+  
+  .ribbon1 h1 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0 70px;
+    line-height: 45px;
+    font-size: 20px;
+    color: #FFF;
+    background: rgb(173, 25, 25);/*真ん中の背景色*/
+  }
+  .ribbon1 h1:before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 10px transparent;
+    border-right: solid 15px rgb(138, 1, 1);/*左の折り返し部分*/
+  }
+  .ribbon1 h1:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    right: 0;
+    border: none;
+    border-bottom: solid 10px transparent;
+    border-left: solid 15px rgb(138, 1, 1);/*右の折り返し部分*/
+  }
+
+  .ribbon1 span{
+    font-size: 1.5em;
+  }
+
+  /*特典*/
+  .container{
+	align-items: center;
+	background: #FFF;
+    box-shadow: inset 1px 3px 6px rgba( 0, 0, 0, 0.9);
+    border-radius: 25px;
+}
+
+.container img{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.container h2{
+    padding: 30px 0;
+    color: red;
+}
+
+.container h3{
+    padding: 30px 0;
+}
