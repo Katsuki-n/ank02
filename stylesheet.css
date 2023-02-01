@@ -40,16 +40,13 @@
 
 .border{
     border-bottom: 2px solid;
-    font-size: 1.3em;
 }
 
 .space{
     margin: 30px;
 }
 
-h2{
-    font-size: 1.1em;
-}
+
 
 .box1 {
     position: relative;
