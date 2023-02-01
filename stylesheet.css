@@ -20,6 +20,36 @@
     margin:100px  0;
 }
 
+.caution{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.caution img{
+    width: 50px;
+    margin: 0;
+}
+
+.caution h1{
+    margin: 0;
+    color: red;
+    padding-left: 10px;
+}
+
+.border{
+    border-bottom: 2px solid;
+    font-size: 1.5em;
+}
+
+.space{
+    margin: 30px;
+}
+
+h2{
+    font-size: 1em;
+}
+
 .box1 {
     position: relative;
     padding: 1em 0.7em;
