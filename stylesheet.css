@@ -155,11 +155,16 @@ a{
 	background: #FFF;
     box-shadow: inset 1px 3px 6px rgba( 0, 0, 0, 0.9);
     border-radius: 25px;
+    margin-bottom: 150px;
 }
 
 .container img{
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+.side img{
     width: 50%;
-    margin-bottom: 50px;
 }
 
 .container h2{
