@@ -1,9 +1,12 @@
 *{
     margin: auto;
-    max-width: 850px;
+    max-width: 480px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h2{
+    font-size: 1.1em;
+}
 
 .txt-center{
     text-align: center;
@@ -40,6 +43,7 @@
 
 .border{
     border-bottom: 2px solid;
+    font-size: 1.2em;
 }
 
 .space{
@@ -86,67 +90,17 @@ a{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
 }
 
-.ribbon1 {
-    display: inline-block;
-    position: relative;
-    height: 45px;
-    text-align: center;
-    box-sizing: border-box;
-    margin-bottom: 100px;
-  }
-  .ribbon1:before {/*左側のリボン端*/
-    content: '';
-    position: absolute;
-    width: 10px;
-    bottom: -60px;
-    left: -65px;
-    z-index: -2;
-    border: 35px solid rgb(185, 56, 56);
-    border-left-color: transparent;/*山形に切り抜き*/
-  }
-  
-  .ribbon1:after {/*右側のリボン端*/
-    content: '';
-    position: absolute;
-    width: 10px;
-    bottom: -60px;
-    right: -65px;
-    z-index: -2;
-    border: 35px solid rgb(185, 56, 56);
-    border-right-color: transparent;/*山形に切り抜き*/
-  }
-  
-  .ribbon1 h1 {
-    display: inline-block;
-    position: relative;
-    margin: 0;
-    padding: 0 10px;
-    line-height: 45px;
-    font-size: 20px;
-    color: #FFF;
-    background: rgb(173, 25, 25);/*真ん中の背景色*/
-  }
-  .ribbon1 h1:before {
-    position: absolute;
-    content: '';
-    top: 100%;
-    left: 0;
-    border: none;
-    border-bottom: solid 10px transparent;
-    border-right: solid 15px rgb(138, 1, 1);/*左の折り返し部分*/
-  }
-  .ribbon1 h1:after {
-    position: absolute;
-    content: '';
-    top: 100%;
-    right: 0;
-    border: none;
-    border-bottom: solid 10px transparent;
-    border-left: solid 15px rgb(138, 1, 1);/*右の折り返し部分*/
-  }
+.arrow{
+    width: 70%;
+    margin: 20px auto;
+}
 
-  .ribbon1 span{
-    font-size: 1.5em;
+.arrow img{
+    width: 100%;
+}
+
+  .six-lists img{
+    width: 100%;
   }
 
   /*特典*/
@@ -155,16 +109,17 @@ a{
 	background: #FFF;
     box-shadow: inset 1px 3px 6px rgba( 0, 0, 0, 0.9);
     border-radius: 25px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    width: 90%;
 }
 
 .container img{
-    width: 30%;
+    width: 50%;
     margin-bottom: 100px;
 }
 
 .side img{
-    width: 50%;
+    width: 70%;
 }
 
 .container h2{
@@ -174,4 +129,8 @@ a{
 
 .container h3{
     padding: 30px 0;
+}
+
+.space-b{
+    margin-bottom: 100px;
 }
