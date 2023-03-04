@@ -1,53 +1,53 @@
-*{
+* {
     margin: auto;
     max-width: 480px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h2{
+h2 {
     font-size: 1.1em;
 }
 
-.txt-center{
+.txt-center {
     text-align: center;
     margin: 40px 0;
 }
 
-.txt-left{
+.txt-left {
     margin: 0 80px;
 }
 
-.txt-left p{
+.txt-left p {
     margin: 30px 0;
 }
 
-.stage{
-    margin:100px  0;
+.stage {
+    margin: 100px 0;
 }
 
-.caution{
+.caution {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
 
-.caution img{
+.caution img {
     width: 50px;
     margin: 0;
 }
 
-.caution h1{
+.caution h1 {
     margin: 0;
     color: red;
     padding-left: 10px;
 }
 
-.border{
+.border {
     border-bottom: 2px solid;
     font-size: 1.2em;
 }
 
-.space{
+.space {
     margin: 30px;
 }
 
@@ -58,12 +58,13 @@ h2{
     padding: 1em 0.7em;
     margin: 2em auto 5em auto;
     background: rgb(50, 0, 142);
-    color: #fff ;
+    color: #fff;
     font-weight: bold;
     width: 70%;
     border-radius: 10px;
-    
+
 }
+
 .box1:after {
     position: absolute;
     content: '';
@@ -74,15 +75,16 @@ h2{
     width: 0;
     height: 0;
 }
+
 .box1 h1 {
-    margin: 0; 
+    margin: 0;
     padding: 0;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
-    background-color:rgb(173, 25, 25) ;
+    background-color: rgb(173, 25, 25);
     color: #fff;
     border-radius: 10px;
     margin: 20px;
@@ -91,47 +93,66 @@ a{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
 }
 
-.arrow{
+.line {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.line a {
+    text-decoration: none;
+    border: none;
+    background-color: #FFF;
+    box-shadow: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.line img {
+    width: 100%;
+}
+
+.arrow {
     width: 70%;
     margin: 20px auto;
 }
 
-.arrow img{
+.arrow img {
     width: 100%;
 }
 
-  .six-lists img{
+.six-lists img {
     width: 100%;
-  }
+}
 
-  /*特典*/
-  .container{
-	align-items: center;
-	background: #FFF;
-    box-shadow: inset 1px 3px 6px rgba( 0, 0, 0, 0.9);
+/*特典*/
+.container {
+    align-items: center;
+    background: #FFF;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.9);
     border-radius: 25px;
     margin-bottom: 100px;
     width: 90%;
 }
 
-.container img{
+.container img {
     width: 50%;
     margin-bottom: 100px;
 }
 
-.side img{
+.side img {
     width: 70%;
 }
 
-.container h2{
+.container h2 {
     padding: 30px 0;
     color: red;
 }
 
-.container h3{
+.container h3 {
     padding: 30px 0;
 }
 
-.space-b{
+.space-b {
     margin-bottom: 100px;
 }
